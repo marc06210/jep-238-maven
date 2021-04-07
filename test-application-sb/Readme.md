@@ -1,13 +1,13 @@
-# test-application
+# test-application-sb
 
-This application shows that JEP-238 is supported by normal java applications.
+This module shows that the JEP-238 is also supported by SpringBoot fat jars.
 
 ## Usage
 Run **mvn clean install** on the multi-release-library
 
 Run **mvn clean package** on this module
 
-Switch from Java 8 to Java11 (or above) and run **java -cp target/test-application-1.0-SNAPSHOT.jar:../multi-release-library/final-module/target/final-release-1.0-SNAPSHOT.jar com.mgu.jep238.test.Application**
+Switch from Java 8 to Java11 (or above) and run **java -jar target/test-application-sb-0.0.1-SNAPSHOT.jar**
 
 You will have different outputs depending on Java version.
 
